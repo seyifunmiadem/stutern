@@ -1,0 +1,105 @@
+<!--This site entails the portfolio project we were to deploy to github pages or netlify-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="intro">
+      <h1><em>Hello, I'm Seyifunmi</em></h1>
+      <p class="intro_description">
+        A Software Engineer that specializes in frontEnd Development
+      </p>
+      <img src="/images/man.png" alt="man png" height="150px" width="150px" />
+    </div>
+
+    <div class="about">
+      <p class="about_description">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+        Placeat ipsam perspiciatis et rerum, esse officiis similique. <br />
+        Aliquam, molestias ullam?
+      </p>
+    </div>
+    <hr />
+    <div class="skills">
+      <h1 class="skills_title"> <em>Skills</em> </h1>
+      <img
+        src="/images/laptop.png"
+        height="200px"
+        width="200px"
+        alt="laptop png image"
+      />
+      <table border="2px">
+        <tr>
+          <th>Skills</th>
+          <th>Years of Experience</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>2 years</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>2 years</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>1 year</td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+    <div class="services">
+        <h1 class="services_title"> <em> What I OFFER</em></h1>
+        <p class="services_description">
+            <i>Here is a list of the services i offer</i>
+            <ul>
+                <li>Web Design and Development</li>
+                <li>Product Design</li> 
+                <li>Programming</li>               
+            </ul>
+        </p>
+    </div>
+    <div class="contact_me">
+        <h2>Want to work on something together?</h2>
+        <p>Fill the form below / send a text to the whatsapp number below</p>
+        
+        <form action="mailto:ademuwagunseyi@gmail.com">
+            <fieldset>
+                <legend>Contact Me</legend>
+                <label for="firstName" placeholder="First Name">First Name</label>
+                <input type="text" name="firstName_input" id="">
+                <br>
+                <br>
+                <label for="lastName" placeholder="Last Name">Last Name</label>
+                <input type="text" name="lastName_input" id="">
+                <br>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" required="true" id="">
+                <br>
+                <br>
+                <label>Is HTML a programming Language?</label>
+                <br>
+                <br>
+                <input type="radio" name="trivia" value="true">
+                <label for="true">True</label>                
+                <br>
+                <input type="radio" a name="trivia" value="false">
+                <label for="false">False</label>
+                <br>
+                <br>
+                <label for="comment">Leave a commment</label>
+                <br>
+                <textarea name="comment" id="" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <input type="submit" name="submit">
+            </fieldset>
+        </form>
+    </div>
+  </body>
+</html>
